@@ -1,83 +1,101 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>我的数字生活空间 | Karrdiya</title>
-<link rel="shortcut icon" href="https://djy245310338.github.io//favicon.ico?v=1559719070817">
+<meta name="description" content="持续给自己创造价值。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://djy245310338.github.io//favicon.ico?v=1559719471639">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://djy245310338.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://djy245310338.github.io/">
-  <img class="avatar" src="https://djy245310338.github.io//images/avatar.png?v=1559719070817" alt="">
-  </a>
-  <h1 class="site-title">
-    Karrdiya
-  </h1>
-  <p class="site-description">
-    持续给自己创造价值。
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://djy245310338.github.io/">
+        <img src="https://djy245310338.github.io//images/avatar.png?v=1559719471639" class="site-logo">
+        <h1 class="site-title">Karrdiya</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      持续给自己创造价值。
+    </div>
+    <div class="site-footer">
+      By karrdiya | <a class="rss" href="https://djy245310338.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              我的数字生活空间
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-31 ·
-              </time>
-              
-            </div>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">我的数字生活空间</h2>
+            <div class="post-date">2019-03-18</div>
             
-              <div class="post-feature-image" style="background-image: url('https://djy245310338.github.io//post-images/wo-de-shu-zi-sheng-huo-kong-jian.png')">
+              <div class="feature-container" style="background-image: url('https://djy245310338.github.io//post-images/wo-de-shu-zi-sheng-huo-kong-jian.png')">
               </div>
             
             <div class="post-content">
@@ -88,7 +106,7 @@
 不过，微信带来便利的同时，也会带来让人逃离的想法。比如，过多的人际会让微信臃肿；添加不下的表情包；还有永远热衷收藏却从不再看的微信文章.....</p>
 <h2 id="订阅">订阅</h2>
 <p>在我的数字空间中，狭义的“订阅”是指：订阅制，花钱买我所需要的服务。
-在过去的2018年，我发现很多服务都变成订阅，不止是视频服务和音乐流媒体，新闻阅读和效率工具甚至滤镜相机、写作工具，都需要按月付钱。比如，我当前的订阅，大的有京东Plus年费会员、NOMO相机年费会员、爱奇艺年费会员、知乎读书会员等，小的有Apple Music会员、饿了么会员等。当然，遇上喜欢的买断制软件和游戏内购等，也是会按需付费的。不过，这些花掉的钱和时间，以另一种有些许价值的形式继续陪伴着我。
+在过去的2018年，我发现很多服务都变成订阅，不止是视频服务和音乐流媒体，新闻阅读和效率工具甚至滤镜相机、写作工具，都需要按月付费。比如，我当前的订阅，大的有京东Plus年费会员、NOMO相机年费会员、爱奇艺年费会员、知乎读书会员等，小的有Apple Music会员、饿了么会员等。当然，遇上喜欢的买断制软件和游戏内购等，也是会按需付费的。不过，这些花掉的钱和时间，以另一种有些许价值的形式继续陪伴着我。
 而广义的“订阅”是指：关注我感兴趣的信息、社区、群体。
 早些日子，当我从RSS订阅源脱离出来时我也考虑到后果了，就是信息传播渠道分散和信息质量参差不齐。RSS订阅源虽然可以做到精准推送、整合分发，阅读有中批阅奏折般的仪式感，但也少了一种生活感。目前，书籍阅读用微信读书和知乎，新闻阅读用好奇心日报和微信公众号，逛社区有微博、豆瓣、即刻、贴吧、B站，其他的还有网易云音乐的电台、播客的订阅以及国外的部分软件等。在参与互联网的同时，我也享受在这些“订阅”忽冷忽热的讨论环境和还算不错的氛围中。</p>
 <h2 id="工具">工具</h2>
@@ -98,58 +116,73 @@
 <p>生活在变，数字时代不断更新，但完善数字生活空间的心始终不变。</p>
 
             </div>
-          </article>
-        </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://djy245310338.github.io//tag/6IVYmM2ic" class="tag">
+                    文章
+                  </a>
+                
+              </div>
+            
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://djy245310338.github.io//post/wo-yu-man-wei">
-              <h3 class="post-title">
-                我与漫威
-              </h3>
-            </a>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
-        
 
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '7435fd889934656e28b9',
-    clientSecret: '87686e5222dcc157aa2c709f30f89dd96ca1c1d5',
-    repo: 'djy245310338.github.io',
-    owner: 'djy245310338',
-    admin: ['djy245310338'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  By karrdiya | 
-  <a class="rss" href="https://djy245310338.github.io//atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '7435fd889934656e28b9',
+        clientSecret: '87686e5222dcc157aa2c709f30f89dd96ca1c1d5',
+        repo: 'djy245310338.github.io',
+        owner: 'djy245310338',
+        admin: ['djy245310338'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
