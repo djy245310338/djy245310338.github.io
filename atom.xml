@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/djy245310338/.github.io</id>
+    <id>https://djy245310338.github.io/</id>
     <title>Karrdiya</title>
-    <updated>2019-06-05T06:15:03.887Z</updated>
+    <updated>2019-06-05T06:41:24.223Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/djy245310338/.github.io"/>
-    <link rel="self" href="https://github.com/djy245310338/.github.io/atom.xml"/>
+    <link rel="alternate" href="https://djy245310338.github.io/"/>
+    <link rel="self" href="https://djy245310338.github.io//atom.xml"/>
     <subtitle>与日俱增</subtitle>
-    <logo>https://github.com/djy245310338/.github.io/images/avatar.png</logo>
-    <icon>https://github.com/djy245310338/.github.io/favicon.ico</icon>
+    <logo>https://djy245310338.github.io//images/avatar.png</logo>
+    <icon>https://djy245310338.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Karrdiya</rights>
     <entry>
         <title type="html"><![CDATA[我的数字生活空间]]></title>
-        <id>https://github.com/djy245310338/.github.io/post/wo-de-shu-zi-sheng-huo-kong-jian</id>
-        <link href="https://github.com/djy245310338/.github.io/post/wo-de-shu-zi-sheng-huo-kong-jian">
+        <id>https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian</id>
+        <link href="https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian">
         </link>
         <updated>2019-05-31T14:58:18.000Z</updated>
         <content type="html"><![CDATA[<p>移动支付的发展使我们的支付方式更为便捷和简单，移动设备的迭代，更是让社交变得越来越有趣……我们正处在科技进步带来的好坏并行的时代。有人把新科技融入生活，创造了自己的数字生活空间；也有一些瞬间，“数字”仿佛入侵了生活，我们时时刻刻被手机所分心......
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[我与漫威]]></title>
-        <id>https://github.com/djy245310338/.github.io/post/wo-yu-man-wei</id>
-        <link href="https://github.com/djy245310338/.github.io/post/wo-yu-man-wei">
+        <id>https://djy245310338.github.io//post/wo-yu-man-wei</id>
+        <link href="https://djy245310338.github.io//post/wo-yu-man-wei">
         </link>
         <updated>2019-05-31T14:54:14.000Z</updated>
         <content type="html"><![CDATA[<h1 id="i-love-you-3000">I love you 3000.</h1>
@@ -45,8 +45,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.com/djy245310338/.github.io/post/hello-gridea</id>
-        <link href="https://github.com/djy245310338/.github.io/post/hello-gridea">
+        <id>https://djy245310338.github.io//post/hello-gridea</id>
+        <link href="https://djy245310338.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
