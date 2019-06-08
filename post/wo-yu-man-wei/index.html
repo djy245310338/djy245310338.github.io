@@ -1,173 +1,304 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+      
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Karrdiya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>我与漫威 | Karrdiya</title>
-<meta name="description" content="持续给自己创造价值。">
+<meta name="description" content="持续给自己创造价值。"/>
+<meta name="keywords" content="持续给自己创造价值。"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://djy245310338.github.io//favicon.ico">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://djy245310338.github.io//favicon.ico?v=1559720264825">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://djy245310338.github.io//styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://djy245310338.github.io//media/scripts/_vendors/respond.min.js"></scripts>
+<![endif]-->
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<!-- Comment -->
 
-  
+    
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+    
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<link crossorigin="anonymous" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" href="https://lib.baomitu.com/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
 
   </head>
   <body>
-    <div id="app" class="main">
+  
+<div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://djy245310338.github.io//media/images/avatar.png" alt="Karrdiya" class="img-responsive">
+        </figure>
+        <h3 class="heading">ABOUT ME</h3>
+        <h2>Karrdiya</h2>
+        <p>持续给自己创造价值。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
+    </div>
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://djy245310338.github.io/">
-        <img src="https://djy245310338.github.io//images/avatar.png?v=1559720264825" class="site-logo">
-        <h1 class="site-title">Karrdiya</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <div class="fh5co-menu">
+        <div class="fh5co-box">
+            <h3 class="heading">搜索</h3>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="输入关键字">
+                </div>
+            </form>
+        </div>
+        <div class="fh5co-box">
+            <h3 class="heading">标签</h3>
+            <ul>
+                
+                    <li><a href="https://djy245310338.github.io//tag/_14tWPSQz">数码</a></li>
+                
+                    <li><a href="https://djy245310338.github.io//tag/6IVYmM2ic">文章</a></li>
+                
+            </ul>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      持续给自己创造价值。
-    </div>
-    <div class="site-footer">
-      By karrdiya | <a class="rss" href="https://djy245310338.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">我与漫威</h2>
-            <div class="post-date">2019-05-31</div>
-            
-              <div class="feature-container" style="background-image: url('https://djy245310338.github.io//post-images/wo-yu-man-wei.png')">
-              </div>
-            
-            <div class="post-content">
-              <h1 id="i-love-you-3000">I love you 3000.</h1>
-<h2 id="绝不甘平凡热血狂燃">绝不甘平凡，热血狂燃。</h2>
-
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                         >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                         >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                         >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://djy245310338.github.io/">Karrdiya</a>
+                </h1>
             </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian">
-                  <h3 class="post-title">
-                    我的数字生活空间
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
         </div>
-      </div>
     </div>
+</header>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+<!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+  <div class="container-fluid">
+      <div class="row fh5co-post-entry single-entry">
+          <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+              <figure class="animate-box">
+                  
+                      <img src="https://djy245310338.github.io//post-images/wo-yu-man-wei.png" alt="我与漫威" class="img-responsive">
+                  
+              </figure>
+              <span class="fh5co-meta animate-box">
+                  
+              </span>
+              <h2 class="fh5co-article-title animate-box">我与漫威</h2>
+              <span class="fh5co-meta fh5co-date animate-box">2019-05-31</span>
+
+              <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                  <div class="row">
+                      <div class="col-md-12 animate-box post-content">
+                          <p> <h2 id="marvel-i-love-you-3000">Marvel , I love you 3000.</h2>
+<h2 id="结识-marvel">结识 Marvel</h2>
+<p>高二入的坑。
+当时跟着朋友看了《复联2》，这是唯一一场我忘记带眼镜去看的电影（之前有听说过钢铁侠、黑寡妇等角色），字幕啥的也没看清楚，角色也是模糊的，只知道后半部分打打杀杀。
+之后在电脑又看了一遍，那时，惊艳于寡姐的性感、铁人的科技、浩克的无敌，以及美队的信念。于是，那年暑假，补完了所有漫威电影，包括不属于MCU的X战警、神奇四侠系列电影，还有《神盾局》和《卡特》。接着，高三5月晚自习去看了《美队3》；高考前几天去看了《天启》。因为不看的话，高考时肯定要胡思乱想。或许高中的我，热爱漫威，只是热衷于英雄主义，盲从着好莱坞带来的无限视效。</p>
+<h2 id="marvel-情结">Marvel 情结</h2>
+<p>上大学后，我关注上了电影本身，不限于漫威。我欣赏着《末代皇帝》的光影与色彩，我思考着《血观音》的人性与黑暗，我热爱着《美丽人生》的温情与感动，我沉浸在皮克斯动画电影带来的各种奇妙设定...<br>
+所以对于电影院上映的电影，我一直有自己的观影风向，我选择看的电影，有以下几种：
+1.有正确口碑的认证，确实值得一看，例如《我不是药神》、《海王》；
+2.曾经看过的好电影的续集，例如即将上映的《玩具总动员4》；
+3.对该片的团队或导演十分信任，比如皮克斯工作室、卡梅隆导演；
+4.有漫威角色的电影，例如MCU、XCU、索尼家的《毒液》。
+这是我的Marvel情结，所有的商业电影里，除了个别确实值得看的电影外，我确实是只吃漫威这一套，就算漫威出了部再差的片，我也会去电影院支持，但看完后，我会辩证看待这部电影，如，《黑豹》剧情单薄但多个角度塑造了非洲未来科技美学；福斯拍的《X战警：黑凤凰》打戏流畅、特效很足，但多处情节转换僵硬，结局走向也不明不白；而索尼拍的《毒液》是真的低于我的及格线了。
+我知道漫威是商业电影，它也从来没想在电影史上留下什么深刻的笔划，它以漫改电影的形式向世界传播着他们上世纪创造出来的超级英雄们，它确实也专注于自身，漫威在我的观影库中充当的是“电影美剧”，这部剧每集基本稳定发挥，每年来个2～3集，有时确有失望，有时也差强人意，有时又突然有了议题。
+树大难免招风，世界在进步，少部分人的意识越来越自主，他们知道漫威电影缺失深度且知道缺失在哪，会给出客观的批评或建议；大多数人选择跟风，一边说着它的电影有特效没剧情，殊不知复联3的英雄阵亡和复联4的时间穿越串起了多少人的期待，殊不知这个电影宇宙就是它特有的故事与剧情。</p>
+<h2 id="复联4的首映与二刷">《复联4》的首映与二刷</h2>
+<p>我没想到，有一天我会熬夜去看首映，有一天我会考虑在影院二刷一部电影。<br>
+是的，《复联4》是我人生中第一部首映，以及第一部影院二刷的电影。
+我从未想过我会疯狂到熬夜去看一部长达3小时的电影，但真的难掩激动。从定档到预售，再到观影前夕，二十几天的时光，是难熬的，也是狂奔的。</p>
+<h3 id="首映有着绝对的魅力">#首映有着绝对的魅力。</h3>
+<p>24号零点场带给我的感受主要来自于观影者。观影前夕，进电影院后看到陆陆续续取票的观众，看到那撞衫率超高的衣服标志，看到不断被用来提神的湿巾，看到钢铁侠雕像不间断的合影留念。从电影的开头到结尾，一群人的欢乐、惊喜、悲伤、失望交织在同一时间点，同时动容，全场欢呼，同仇敌忾，与有荣焉，一群陌生人悲欢相通，这是件奇妙而又幸福的事。</p>
+<h3 id="二度观影更是沉浸">#二度观影，更是沉浸。</h3>
+<p>从严格的观影意义上来说，《复联4》不是我第一部“二刷”的电影。
+我认为，时间应该留给新鲜的东西，但对我有绝对魅力的电影，我一定会再去过目几遍。《机器人总动员》是我小学六年级看的电影，它对我有很大的影响，时至今日我仍会抽出时间来看看它的许多片段，我一直关注着动画电影，对动画电影的信任大部分源自它；《美丽人生》我看了4遍，它实在让我动心，并打算往后每年都看一遍；《龙猫》我在视频网站上看了一次，去年又去电影院支持了一遍...
+所以，准确来说，《复联4》是我第一部在电影院二刷的电影。
+为什么二刷？我的原因如下：
+1.MCU粉丝因素。
+2.上文提到的，《复联4》对我有的绝对魅力。
+3.陪还没看的朋友去电影院看。
+4.理清一些第一遍没看懂的情节，着重于观察《复联4》的时间穿越观。
+5.再看一遍对我有独特情怀的“彩蛋们”。
+6.找首歌，浩克和火箭前往新阿斯加德的BGM。已找到，The Kinks的《Supersonic Rocket Ship》。
+7.告别三个凡人：铁人、美队、寡姐。
+二刷的《复联4》是在杜比影院看的，对比第一场的普通厅，观影体验肯定是提升不少，这影院确实不同于普通影院，大屏清晰，声感震撼，座椅舒适。</p>
+<h2 id="复联4观后感">《复联4》观后感</h2>
+<p>对于路人来说，二刷是不太可能的，首先是《复联4》的时长和票价确实劝退，其次是上映以来路人最多的反映就是文戏太长且大战略短，对比《复联3》的情节紧凑和叙述完整，《复联4》埋梗众多，再加上独特且复杂的时间穿越，又杂揉了多段有关无限宝石的历史，把MCU所有电影都看过的观众都不一定能反应到某个点的精彩，《复联4》应该是MCU至今最粉丝向的电影了，此次确实是非常不照顾路人。
+对于我来说，《复联4》不只是22部电影的集结，不止于我的Marvel情结。
+《复联4》集MCU所有电影之大成，开篇着重于《复联3》的响指危机和复联幸存成员的现状，接着动用量子力学进行时间穿越，却有条不紊地完成，并引出漫威后续布局的多元宇宙；后半部分的大战空前盛大，虽然与《复联3》有巨大反差的战位分布，但也短而充足地展现了现阶段各个任务的能力，复联方面主要集中在“三巨头”，新英雄的亮相反倒不多，反派主要集中在展现无宝石灭霸的超强战斗力，由此也削弱了黑曜四将的存在感，无限宝石的能力在《复联4》中主要集中在响指的使用，但收集宝石的过程中，有得有失，也暗示了未来多元宇宙的到来。
+作为粉丝，有笑点泪点，有众多彩蛋，有感动温度，有尚好结局；作为观众，有背景支撑，有剧情逻辑，有震撼观感，有观影议题，我有充足的理由，说明这部电影对我的绝对魅力。</p>
+<h3 id="我的兴奋点">#我的兴奋点</h3>
+<p>1.“老朋友”们的现身，卡特、霍华德、贾维斯、古一、洛基。
+2.美队举起雷神锤
+3.奇异博士把所有英雄传送过来的时候
+4.复仇者集结，大战灭霸军团
+5.钢铁侠和小辣椒（救援战甲）并肩作战
+6.猩红女巫单虐灭霸
+7.MCU所有女英雄集结（独缺寡姐，但这一幕我永远会想起她）</p>
+<h3 id="我的惊讶点">#我的惊讶点</h3>
+<p>1.惊奇队长新发型（致敬漫画）
+2.雷神的胖造型
+3.美国队长：九头蛇万岁
+4.洛基带走空间宝石
+5.雷神锤再现</p>
+<h3 id="我的感动点">#我的感动点</h3>
+<p>1.雷神妈妈：“你在未来一定吃了很多苦吧”
+2.钢铁侠、摩小根：“我爱你 3000 遍”
+3.鹰眼与黑寡妇在宇宙飞船的相视一笑
+4.黑寡妇跳悬崖换取灵魂宝石
+5.火箭浣熊在炮雨齐飞的时候护住格鲁特
+6.钢铁侠葬礼</p>
+<h2 id="最后">最后</h2>
+<p>说来惭愧，我也不能算得上是漫威的超级疯狂粉丝，我不会关于漫威的每部电影都去二刷多刷的支持，我不会去购买与漫威相关但对我无价值的物品，我也会去看对手家（DC）的好电影，我也会在豆瓣上对无感的漫威电影打上中差评，但我愿意为其花上一篇文章的时间，讲述眼中那个热血狂燃的鲜红色标志，就算铁甲破损，就算乏味剧本，就算脱离安稳，可那是众多个钢铁意志般的灵魂，那是火红的永恒，那是漫画文化的永生，
+《复联4》是开启多元宇宙的钥匙，十年一战，并未终章，漫威的未来，或许有一天我会厌倦，但我也绝不会缺席!</p>
+ </p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-12 animate-box">
+                          
+                              <div class="next-post">
+                                  <div class="next">下一篇</div>
+                                  <a href="https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian">
+                                      <h3 class="post-title">
+                                          我的数字生活空间
+                                      </h3>
+                                  </a>
+                              </div>
+                          
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-12 animate-box">
+                          
+                              
+                                  <div id="gitalk-container"></div>
+                              
+
+                              
+                          
+                      </div>
+                  </div>
+              </div>
+
+          </article>
+      </div>
+  </div>
+
+    
+<footer id="fh5co-footer">
+  <p>By karrdiya</p>
+</footer>
+
+
+    
+<!-- jQuery -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://djy245310338.github.io//media/scripts/_vendors/md5.min.js"></script>
 
 <script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+    hljs.initHighlightingOnLoad();
 </script>
 
 
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+    
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script>
 
-      var gitalk = new Gitalk({
-        clientID: '7435fd889934656e28b9',
-        clientSecret: '87686e5222dcc157aa2c709f30f89dd96ca1c1d5',
-        repo: 'djy245310338.github.io',
-        owner: 'djy245310338',
-        admin: ['djy245310338'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+            var gitalk = new Gitalk({
+                clientID: '7435fd889934656e28b9',
+                clientSecret: '87686e5222dcc157aa2c709f30f89dd96ca1c1d5',
+                repo: 'djy245310338.github.io',
+                owner: 'djy245310338',
+                admin: ['djy245310338'],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
 
-      gitalk.render('gitalk-container')
+            gitalk.render('gitalk-container')
 
-    </script>
-  
+        </script>
+    
 
-  
+    
 
 
 
