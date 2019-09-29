@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://djy245310338.github.io/</id>
     <title>Karrdiya</title>
-    <updated>2019-09-24T17:33:52.529Z</updated>
+    <updated>2019-09-29T13:36:41.538Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://djy245310338.github.io/"/>
     <link rel="self" href="https://djy245310338.github.io//atom.xml"/>
@@ -10,6 +10,60 @@
     <logo>https://djy245310338.github.io//images/avatar.png</logo>
     <icon>https://djy245310338.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Karrdiya</rights>
+    <entry>
+        <title type="html"><![CDATA[愿望]]></title>
+        <id>https://djy245310338.github.io//post/yuan-wang</id>
+        <link href="https://djy245310338.github.io//post/yuan-wang">
+        </link>
+        <updated>2019-09-29T13:36:22.000Z</updated>
+        <content type="html"><![CDATA[<p>地方</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谈谈我最喜欢的歌手]]></title>
+        <id>https://djy245310338.github.io//post/tan-tan-wo-zui-xi-huan-de-ge-shou</id>
+        <link href="https://djy245310338.github.io//post/tan-tan-wo-zui-xi-huan-de-ge-shou">
+        </link>
+        <updated>2019-09-29T13:35:29.000Z</updated>
+        <content type="html"><![CDATA[<p>徐佳莹。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[金门旅行有感]]></title>
+        <id>https://djy245310338.github.io//post/jin-men-lu-xing-you-gan</id>
+        <link href="https://djy245310338.github.io//post/jin-men-lu-xing-you-gan">
+        </link>
+        <updated>2019-09-29T13:35:09.000Z</updated>
+        <content type="html"><![CDATA[<p>发布</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的EDC清单（持续更新）]]></title>
+        <id>https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin</id>
+        <link href="https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin">
+        </link>
+        <updated>2019-09-29T13:34:24.000Z</updated>
+        <content type="html"><![CDATA[<p>额</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2017 年度总结]]></title>
+        <id>https://djy245310338.github.io//post/2017-nian-du-zong-jie</id>
+        <link href="https://djy245310338.github.io//post/2017-nian-du-zong-jie">
+        </link>
+        <updated>2019-09-29T13:32:57.000Z</updated>
+        <content type="html"><![CDATA[<p>而过v</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2018 年度总结]]></title>
+        <id>https://djy245310338.github.io//post/2018-nian-du-zong-jie</id>
+        <link href="https://djy245310338.github.io//post/2018-nian-du-zong-jie">
+        </link>
+        <updated>2019-09-29T13:32:26.000Z</updated>
+        <content type="html"><![CDATA[<p>vr</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[志愿遐想]]></title>
         <id>https://djy245310338.github.io//post/zhi-yuan-xia-xiang</id>
