@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://djy245310338.github.io/</id>
     <title>Karrdiyas&apos;s Blog</title>
-    <updated>2019-11-11T16:27:49.934Z</updated>
+    <updated>2019-11-21T11:45:26.548Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://djy245310338.github.io/"/>
     <link rel="self" href="https://djy245310338.github.io//atom.xml"/>
@@ -15,7 +15,21 @@
         <id>https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin</id>
         <link href="https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin">
         </link>
-        <updated>2019-11-11T16:27:39.000Z</updated>
+        <updated>2019-11-21T11:45:14.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[年度订阅]]></title>
+        <id>https://djy245310338.github.io//post/nian-du-ding-yue</id>
+        <link href="https://djy245310338.github.io//post/nian-du-ding-yue">
+        </link>
+        <updated>2019-11-21T11:43:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第7年，我的TOP15]]></title>
+        <id>https://djy245310338.github.io//post/di-7-nian-wo-de-top15</id>
+        <link href="https://djy245310338.github.io//post/di-7-nian-wo-de-top15">
+        </link>
+        <updated>2019-11-21T11:42:19.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[金门，盛夏的渔光曲。]]></title>
@@ -65,12 +79,5 @@
         <link href="https://djy245310338.github.io//post/2018-nian-du-zong-jie">
         </link>
         <updated>2018-12-31T13:32:26.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2017 年度总结]]></title>
-        <id>https://djy245310338.github.io//post/2017-nian-du-zong-jie</id>
-        <link href="https://djy245310338.github.io//post/2017-nian-du-zong-jie">
-        </link>
-        <updated>2017-12-31T13:32:57.000Z</updated>
     </entry>
 </feed>
