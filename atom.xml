@@ -2,82 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://djy245310338.github.io/</id>
     <title>Karrdiyas&apos;s Blog</title>
-    <updated>2019-11-21T11:45:26.548Z</updated>
+    <updated>2020-01-23T10:50:58.659Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://djy245310338.github.io/"/>
-    <link rel="self" href="https://djy245310338.github.io//atom.xml"/>
+    <link rel="self" href="https://djy245310338.github.io/atom.xml"/>
     <subtitle>我从婴儿床，再走回光芒。</subtitle>
-    <logo>https://djy245310338.github.io//images/avatar.png</logo>
-    <icon>https://djy245310338.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, Karrdiyas&apos;s Blog</rights>
+    <logo>https://djy245310338.github.io/images/avatar.png</logo>
+    <icon>https://djy245310338.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Karrdiyas&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[年度2019]]></title>
+        <id>https://djy245310338.github.io/post/nian-du-2019</id>
+        <link href="https://djy245310338.github.io/post/nian-du-2019">
+        </link>
+        <updated>2020-01-23T10:45:01.000Z</updated>
+        <summary type="html"><![CDATA[<p>“我从婴儿床，再走回光芒”</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“我从婴儿床，再走回光芒”</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2019 | 年度购物]]></title>
+        <id>https://djy245310338.github.io/post/2019-or-nian-du-gou-wu</id>
+        <link href="https://djy245310338.github.io/post/2019-or-nian-du-gou-wu">
+        </link>
+        <updated>2020-01-23T10:38:11.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2019 | 年度院线]]></title>
+        <id>https://djy245310338.github.io/post/2019-or-nian-du-yuan-xian</id>
+        <link href="https://djy245310338.github.io/post/2019-or-nian-du-yuan-xian">
+        </link>
+        <updated>2020-01-23T10:37:23.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的EDC清单（持续更新）]]></title>
-        <id>https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin</id>
-        <link href="https://djy245310338.github.io//post/wo-de-edc-qing-dan-chi-xu-geng-xin">
+        <id>https://djy245310338.github.io/post/wo-de-edc-qing-dan-chi-xu-geng-xin</id>
+        <link href="https://djy245310338.github.io/post/wo-de-edc-qing-dan-chi-xu-geng-xin">
         </link>
         <updated>2019-11-21T11:45:14.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[年度订阅]]></title>
-        <id>https://djy245310338.github.io//post/nian-du-ding-yue</id>
-        <link href="https://djy245310338.github.io//post/nian-du-ding-yue">
+        <title type="html"><![CDATA[2019 | 年度订阅]]></title>
+        <id>https://djy245310338.github.io/post/nian-du-ding-yue</id>
+        <link href="https://djy245310338.github.io/post/nian-du-ding-yue">
         </link>
         <updated>2019-11-21T11:43:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第7年，我的TOP15]]></title>
-        <id>https://djy245310338.github.io//post/di-7-nian-wo-de-top15</id>
-        <link href="https://djy245310338.github.io//post/di-7-nian-wo-de-top15">
+        <title type="html"><![CDATA[歌手第7年，我的TOP15]]></title>
+        <id>https://djy245310338.github.io/post/di-7-nian-wo-de-top15</id>
+        <link href="https://djy245310338.github.io/post/di-7-nian-wo-de-top15">
         </link>
         <updated>2019-11-21T11:42:19.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[金门，盛夏的渔光曲。]]></title>
-        <id>https://djy245310338.github.io//post/jin-men-lu-xing-you-gan</id>
-        <link href="https://djy245310338.github.io//post/jin-men-lu-xing-you-gan">
+        <id>https://djy245310338.github.io/post/jin-men-lu-xing-you-gan</id>
+        <link href="https://djy245310338.github.io/post/jin-men-lu-xing-you-gan">
         </link>
         <updated>2019-09-19T13:35:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[志愿遐想]]></title>
-        <id>https://djy245310338.github.io//post/zhi-yuan-xia-xiang</id>
-        <link href="https://djy245310338.github.io//post/zhi-yuan-xia-xiang">
+        <id>https://djy245310338.github.io/post/zhi-yuan-xia-xiang</id>
+        <link href="https://djy245310338.github.io/post/zhi-yuan-xia-xiang">
         </link>
         <updated>2019-06-14T12:10:34.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[我与漫威]]></title>
-        <id>https://djy245310338.github.io//post/wo-yu-man-wei</id>
-        <link href="https://djy245310338.github.io//post/wo-yu-man-wei">
+        <id>https://djy245310338.github.io/post/wo-yu-man-wei</id>
+        <link href="https://djy245310338.github.io/post/wo-yu-man-wei">
         </link>
         <updated>2019-05-31T14:54:14.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[APP手册]]></title>
-        <id>https://djy245310338.github.io//post/dui-app-de-yi-xie-xiang-fa</id>
-        <link href="https://djy245310338.github.io//post/dui-app-de-yi-xie-xiang-fa">
-        </link>
-        <updated>2019-04-20T06:39:13.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[我的数字生活空间]]></title>
-        <id>https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian</id>
-        <link href="https://djy245310338.github.io//post/wo-de-shu-zi-sheng-huo-kong-jian">
+        <id>https://djy245310338.github.io/post/wo-de-shu-zi-sheng-huo-kong-jian</id>
+        <link href="https://djy245310338.github.io/post/wo-de-shu-zi-sheng-huo-kong-jian">
         </link>
         <updated>2019-03-18T14:58:18.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[谈谈我最喜欢的歌手]]></title>
-        <id>https://djy245310338.github.io//post/tan-tan-wo-zui-xi-huan-de-ge-shou</id>
-        <link href="https://djy245310338.github.io//post/tan-tan-wo-zui-xi-huan-de-ge-shou">
-        </link>
-        <updated>2019-01-30T13:35:29.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2018 年度总结]]></title>
-        <id>https://djy245310338.github.io//post/2018-nian-du-zong-jie</id>
-        <link href="https://djy245310338.github.io//post/2018-nian-du-zong-jie">
-        </link>
-        <updated>2018-12-31T13:32:26.000Z</updated>
     </entry>
 </feed>
