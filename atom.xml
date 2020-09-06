@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://djy245310338.github.io/</id>
     <title>Karrdiyas&apos;s Blog</title>
-    <updated>2020-08-09T03:46:09.046Z</updated>
+    <updated>2020-09-06T08:42:09.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://djy245310338.github.io/"/>
     <link rel="self" href="https://djy245310338.github.io/atom.xml"/>
@@ -10,34 +10,6 @@
     <logo>https://djy245310338.github.io/images/avatar.png</logo>
     <icon>https://djy245310338.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Karrdiyas&apos;s Blog</rights>
-    <entry>
-        <title type="html"><![CDATA[年度2019]]></title>
-        <id>https://djy245310338.github.io/post/nian-du-2019/</id>
-        <link href="https://djy245310338.github.io/post/nian-du-2019/">
-        </link>
-        <updated>2020-01-23T10:45:01.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2019 | 年度购物]]></title>
-        <id>https://djy245310338.github.io/post/2019-or-nian-du-gou-wu/</id>
-        <link href="https://djy245310338.github.io/post/2019-or-nian-du-gou-wu/">
-        </link>
-        <updated>2020-01-23T10:38:11.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2019 | 年度院线]]></title>
-        <id>https://djy245310338.github.io/post/2019-or-nian-du-yuan-xian/</id>
-        <link href="https://djy245310338.github.io/post/2019-or-nian-du-yuan-xian/">
-        </link>
-        <updated>2020-01-23T10:37:23.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2019 | 年度订阅]]></title>
-        <id>https://djy245310338.github.io/post/nian-du-ding-yue/</id>
-        <link href="https://djy245310338.github.io/post/nian-du-ding-yue/">
-        </link>
-        <updated>2019-11-21T11:43:00.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[金门，盛夏的渔光曲。]]></title>
         <id>https://djy245310338.github.io/post/jin-men-lu-xing-you-gan/</id>
@@ -51,19 +23,5 @@
         <link href="https://djy245310338.github.io/post/wo-yu-man-wei/">
         </link>
         <updated>2019-05-31T14:54:14.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年度2018]]></title>
-        <id>https://djy245310338.github.io/post/2018-nian-du-zong-jie/</id>
-        <link href="https://djy245310338.github.io/post/2018-nian-du-zong-jie/">
-        </link>
-        <updated>2018-12-31T13:32:26.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年度2017]]></title>
-        <id>https://djy245310338.github.io/post/2017-nian-du-zong-jie/</id>
-        <link href="https://djy245310338.github.io/post/2017-nian-du-zong-jie/">
-        </link>
-        <updated>2017-12-31T13:32:57.000Z</updated>
     </entry>
 </feed>
